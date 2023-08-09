@@ -26,6 +26,7 @@ body{
   font-family: Sharp Sans;
   overflow-x: hidden;
 }
+
 .custom-logo{
     margin-bottom: 10px;
     max-width: 180px !important; 
@@ -178,7 +179,7 @@ letter-spacing: 0.281px;
     position: absolute;
     top: 0;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     width: 100%;
     justify-content: center;
     height: 100%;
