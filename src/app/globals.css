@@ -24,6 +24,7 @@ h1,h2,.fs-1,.fs-2{
 body{
   background: #F6F6F6 !important;
   font-family: Sharp Sans;
+  overflow-x: hidden;
 }
 .custom-logo{
     margin-bottom: 10px;
@@ -1034,10 +1035,14 @@ background-color: transparent;
 .main-slider-section_item-content_title{
     width: 350px;
 }
-.logos-section_item{
-    width: 250px;
-}
 
+.flickity-viewport,.flickity-slider,.logos--slider{
+  outline: none;
+}
+.logos-section{
+  max-height: 137px;
+  overflow: hidden;
+}
 .header1-menu-link-title{
     display: none;
 }
@@ -1055,7 +1060,13 @@ background-color: transparent;
     height: 24px;
     width: 24px;
 }
+.logos-section_item{
+  width: 200px !important;
+}
 @media(min-width:768px){
+  .logos-section_item{
+    width: 240px !important;
+}
     .header-1-links svg{
         height: 32px;
         width: 32px;

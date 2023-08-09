@@ -9,12 +9,14 @@ import ImageTextCards from './components/ImageTextCards/ImageTextCards'
 import CategoryImageTextOverLay from './components/CategoryImageTextOverLay/CategoryImageTextOverLay'
 import VideoSection from './components/VideoSection/VideoSection'
 import BlogSection from './components/BlogSection/BlogSection'
+import LogosSlider from './components/LogosSlider/LogosSlider'
 
 export default function Home() {
   return (
     <>
     <AnnouncmentBar/>
     <NavBar/>
+    <LogosSlider/>
     <CategoryImageTextOverLay/>
     <TextSection/>
     <VideoSection/>
