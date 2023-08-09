@@ -70,8 +70,7 @@ const MainSlider = () => {
             caption: 'Caption 3',
             title: 'Title 3',
             text: 'Text 2',
-        },
-        // Add more slide data here...
+        }
     ];
 
     

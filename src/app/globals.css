@@ -44,6 +44,7 @@ body{
 .swiper-slides{
 flex-wrap: nowrap;
 }
+
 .swiper-slide{
     width: 210px;
     margin-right: 10px;

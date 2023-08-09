@@ -11,13 +11,16 @@ import VideoSection from './components/VideoSection/VideoSection'
 import BlogSection from './components/BlogSection/BlogSection'
 import LogosSlider from './components/LogosSlider/LogosSlider'
 import MainSlider from './components/MainSlider/MainSlider'
+import ImageSlider from './components/ImageSlider/ImageSlider'
 
 export default function Home() {
   return (
     <>
     <AnnouncmentBar/>
     <NavBar/>
-    <MainSlider/>
+    <ImageSlider/>
+    {/* <MainSlider/> */}
+    
     <LogosSlider/>
     <CategoryImageTextOverLay/>
     <TextSection/>
