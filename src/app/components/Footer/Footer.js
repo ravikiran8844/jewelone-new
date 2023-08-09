@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="row g-4 mb-4 py-4">
         <div className="col-12 col-lg-4 mb-4 text-center text-lg-start">
           <div className="mb-3">
-            <Image className="img-fluid" width="200" height="300" src="/jewelone-footer-logo.png" alt="" />
+            <Image className="img-fluid" width="200" height="158" src="/jewelone-footer-logo.png" alt="" />
           </div>
           <div className="custom_footer--text mb-3 text-center text-lg-start ">Subscribe to email alerts. We promise not to spam your inbox.</div>
           <div>subscribe</div>
