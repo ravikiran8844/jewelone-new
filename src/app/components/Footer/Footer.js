@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 import React from 'react'
 
 const Footer = () => {
@@ -18,12 +19,20 @@ const Footer = () => {
         <div className="col-6 col-md">
           <div className="custom_footer--links-title mb-3">Useful Links</div>
           <div className="footer-link-items_wrapper">
-          <a href="https://jd.brightbridgeinfotech.com/customer-service/track-your-order/" className="custom_footer--link-item ">Track your order</a><a href="https://jd.brightbridgeinfotech.com/customer-service/free-shipping/" className="custom_footer--link-item ">Delivery Information</a><a href="https://jd.brightbridgeinfotech.com/payment-options/" className="custom_footer--link-item ">Payment Options</a><a href="https://jd.brightbridgeinfotech.com/customer-service/return-policy/" className="custom_footer--link-item ">Returns</a><a href="https://jd.brightbridgeinfotech.com/find-a-store/" className="custom_footer--link-item ">Find a Store</a>						</div>
+          <Link className='custom_footer--link-item' href="/track-order">Track Your Order</Link>
+          <Link className='custom_footer--link-item' href="/payment-options">Payment Options</Link>
+          <Link className='custom_footer--link-item' href="/returns">Returns</Link>
+          <Link className='custom_footer--link-item' href="/find-store">Find a Store</Link>
+
+          </div>
         </div>
         <div className="col-6 col-md">
           <div className="custom_footer--links-title mb-3">Information</div>
           <div className="footer-link-items_wrapper">
-          <a href="https://jd.brightbridgeinfotech.com/blog/" className="custom_footer--link-item ">Blog</a><a href="https://jd.brightbridgeinfotech.com/offers-contest-details/" className="custom_footer--link-item ">Offers &amp; Contest Details</a><a href="https://jd.brightbridgeinfotech.com/about-jewelone/" className="custom_footer--link-item ">About JewelOne</a><a href="https://jd.brightbridgeinfotech.com/customer-service/support-faqs/" className="custom_footer--link-item ">Help &amp; FAQs</a>						</div>
+          <Link className='custom_footer--link-item' href="/blog">Blog</Link>
+          <Link className='custom_footer--link-item' href="/about-jewelone">About JewelOne</Link>
+
+          </div>
         </div>
         <div className="col-12 col-sm-6 col-md">
           <div className="custom_footer--links-title mb-3">Contact Us</div>
