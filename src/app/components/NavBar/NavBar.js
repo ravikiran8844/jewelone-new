@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="header-1 col-12 d-flex justify-content-between align-items-center">
           <div>
             <div>
-              <Image className='img-fluid' height={66} width={256} src="/jewel-one-logo.png" alt="jewelone logo"/>
+              <Image priority className='img-fluid' height={66} width={256} src="/jewel-one-logo.png" alt="jewelone logo"/>
             </div>
           </div>
           <div>

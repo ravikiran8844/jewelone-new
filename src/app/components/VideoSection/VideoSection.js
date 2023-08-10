@@ -6,7 +6,7 @@ const VideoSection = () => {
       <div className="row">
         <div className="col-12">
           <video controls className="homepage-video" width="320" height="240" poster="/video-banner1.webp">
-            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
+            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
           </video>
         </div>
       </div>

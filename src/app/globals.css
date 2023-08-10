@@ -1375,7 +1375,7 @@ letter-spacing: 0.36px;
         display: flex;
         align-items: center;
         width: 100%;
-        justify-content: end;
+        justify-content: flex-end;
         height: 100%;
     
     }
