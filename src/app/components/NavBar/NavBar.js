@@ -49,6 +49,11 @@ const NavBar = () => {
             </div>
           </div>
         </div>
+        {/* <div className='mega-menu'>
+          <div>
+            mega menu
+          </div>
+        </div> */}
       </div>
     </div>
   );
