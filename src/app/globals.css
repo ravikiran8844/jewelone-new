@@ -657,7 +657,7 @@ line-height: 100%; /* 12.453px */
 
  
 .shop-by-category .splide__arrow{
-    top: 0;
+    top: -70px;
     border-radius: 41px;
     background: #C0832B;
     margin-top:20px ;

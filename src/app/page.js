@@ -8,6 +8,7 @@ import BlogSection from './components/BlogSection/BlogSection'
 import LogosSlider from './components/LogosSlider/LogosSlider'
 import MainSlider from './components/MainSlider/MainSlider'
 import ImageSlider from './components/ImageSlider/ImageSlider'
+import CategorySlider from './components/CategorySlider/CategorySlider'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     {/* <MainSlider/> */}
     
     <LogosSlider/>
+    <CategorySlider/>
     <CategoryImageTextOverLay/>
     <TextSection/>
     <VideoSection/>
