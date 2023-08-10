@@ -20,7 +20,7 @@ const CategorySlider = () => {
         .catch((error) => {
           console.log(error.response.data);
         });
-    }, [subcategories]);
+    }, []);
 
   return (
     <div class="shop-by-category container mt-5">
