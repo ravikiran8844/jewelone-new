@@ -26,7 +26,11 @@ body{
   font-family: Sharp Sans;
   overflow-x: hidden;
 }
-
+.image-slider-section img{
+  min-height: 90vh;
+  width: 100%;
+  height: auto;
+}
 .custom-logo{
     margin-bottom: 10px;
     max-width: 180px !important; 
