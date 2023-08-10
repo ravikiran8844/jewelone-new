@@ -26,10 +26,22 @@ body{
   font-family: Sharp Sans;
   overflow-x: hidden;
 }
+.announcment-bar{
+  padding: 10px;
+  text-align: center;
+  height: 50px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .image-slider-section img{
-  min-height: 90vh;
+  min-height: calc(100vh - 150px);
   width: 100%;
   height: auto;
+  object-fit: cover;
+}
+.main-header a{
+  text-decoration: none !important;
 }
 .custom-logo{
     margin-bottom: 10px;
@@ -1061,6 +1073,9 @@ background-color: transparent;
     font-weight: 500;
     line-height: 100%; /* 16px */
     text-transform: uppercase;
+}
+.header-1{
+  height: 100px;
 }
 .header-1-links svg{
     height: 24px;
