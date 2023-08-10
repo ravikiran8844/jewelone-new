@@ -26,6 +26,12 @@ body{
   font-family: Sharp Sans;
   overflow-x: hidden;
 }
+.blog-section_item{
+  max-width: 585;
+  min-height: 339;
+  width: 100%;
+  background-color: #F6F6F6;
+}
 .announcment-bar{
   padding: 10px;
   text-align: center;
